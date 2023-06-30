@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     double radius;
-    double pi = 21/7;
+    const double pi = 21/7;
     cout << "Enter the Radius of the  = ";
     // Enter the radius such that in the next process, the area is calculated.
     cin >> radius;
